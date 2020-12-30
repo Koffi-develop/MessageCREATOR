@@ -1,0 +1,24 @@
+{
+  "props": [],
+  "components": {
+    "create": {
+      "type": "script\\MacroScript",
+      "x": 64,
+      "y": 16,
+      "props": {}
+    },
+    "save": {
+      "type": "script\\FileChooserScript",
+      "x": 16,
+      "y": 16,
+      "props": {
+        "saveDialog": true,
+        "filterName": "Visual Basic Script file",
+        "filterExtensions": "*.vbs*",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    }
+  }
+}
